@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <div>
+        <label for="name">Name</label>
+        <br>
+        <input type="name" name="name" id="name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="date">DOB</label>
+        <br>
+        <input type="date" name="date" id="date">
+    </div>
+    <br>
+    <div>
+        <label for="Interest">Select your interest</label>
+        <br>
+        <input type="interest" name="Interest" id="Interest">
+    </div>
+    <div>
+            <label for="individual">Individual</label>
+            <Inp type="checkbox" name="individual" id="individual">
+            </Inp>
+    </div>    
+    <div>
+            <label for="organization">organization</label>
+            <Inp type="checkbox" name="organization" id="organization">
+            </Inp>
+    </div>    
+        </Inp>
+        </div>
+    </div>
+    <br>
+    <div>
+        <label>About you</label>
+        <br>
+        <input>
+    </div>
+    <br>
+    <button>Send Details</button>
+    </form>
+    
+</body>
+</html>
